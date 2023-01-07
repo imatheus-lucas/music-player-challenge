@@ -2,11 +2,11 @@
   "musics": [
     {
       "id": 1,
-      "title": "The Sound of Silence",
-      "thumbnail": "https://img.freepik.com/vetores-premium/fofo-fita-cassete-desenho-vetorial-icone-ilustracao-logotipo-mascote-desenhado-a-mao-conceito-moderno-desenho-animado_519183-54.jpg",
-      "description": "The Sound of Silence by Simon & Garfunkel",
+      "title": "AERØHEAD - HAVEN",
+      "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/08/c6/74/08c674a9-f7e2-fc7b-647f-b5fc9e70b3db/artwork.jpg/375x375bb.jpg",
+      "description": "Música Sem Direitos Autorais",
       "file": {
-        "url": "https://storage.cloud.google.com/music-jrkh/X2Download.app%20-%20lofi%20hip%20hop%20mix%20radio-beat%20to%20relax_study%20too%5B10%20min%5D%20(128%20kbps).mp3",
+        "url": "https://storage.cloud.google.com/music-jrkh/X2Download.app%20-%20AER%C3%98HEAD%20-%20HAVEN%20_%20No%20Copyright%20Music%20(128%20kbps).mp3",
         "type": "audio/mp3"
       }
     }

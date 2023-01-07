@@ -1,11 +1,5 @@
-import {
-  createContext,
-  ReactNode,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
-
+import { createContext, ReactNode, useContext, useState } from "react";
+import { musics as ListSongs } from "../../musics.json";
 type PlayerContextData = {
   musics: IMusic[];
   isPlaying: boolean;
@@ -32,17 +26,17 @@ export interface IMusic {
   file: File;
 }
 
-export function PLayerContextProvider({
+export function PlayerContextProvider({
   children,
 }: PlayerContextProviderProps) {
-  const [musics, setMusics] = useState<IMusic[]>([]);
+  const [musics, setMusics] = useState<IMusic[]>([...ListSongs]);
   const [isPlaying, setIsPlaying] = useState(false);
 
-  useEffect(() => {
-    fetch("http://localhost:3333/musics")
-      .then((response) => response.json())
-      .then((data) => setMusics(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch("http://localhost:3333/musics")
+  //     .then((response) => response.json())
+  //     .then((data) => setMusics(data));
+  // }, []);
 
   function playMusic() {
     setIsPlaying(true);

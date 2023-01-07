@@ -1,7 +1,7 @@
 import { Moon, Sun } from "phosphor-react";
 import { Cover } from "../../components/Cover";
 import { Player } from "../../components/Player";
-import { PLayerContextProvider } from "../../contexts/PlayerContext";
+import { PlayerContextProvider } from "../../contexts/PlayerContext";
 import { useTheme } from "../../contexts/ThemeContext";
 import { ChooseThemeButton, Container } from "./styles";
 function Home() {
@@ -15,10 +15,10 @@ function Home() {
           <Moon weight="fill" size={24} color={theme.colors.secondary} />
         )}
       </ChooseThemeButton>
-      <PLayerContextProvider>
+      <PlayerContextProvider>
         <Cover />
         <Player />
-      </PLayerContextProvider>
+      </PlayerContextProvider>
     </Container>
   );
 }

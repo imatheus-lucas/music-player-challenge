@@ -24,6 +24,8 @@ export const Container = styled.div`
     @media (min-width: 1040px) {
       width: 25%;
     }
+
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
   }
 `;
 
