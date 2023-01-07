@@ -1,0 +1,14 @@
+{
+  "musics": [
+    {
+      "id": 1,
+      "title": "The Sound of Silence",
+      "thumbnail": "https://img.freepik.com/vetores-premium/fofo-fita-cassete-desenho-vetorial-icone-ilustracao-logotipo-mascote-desenhado-a-mao-conceito-moderno-desenho-animado_519183-54.jpg",
+      "description": "The Sound of Silence by Simon & Garfunkel",
+      "file": {
+        "url": "https://storage.cloud.google.com/music-jrkh/X2Download.app%20-%20lofi%20hip%20hop%20mix%20radio-beat%20to%20relax_study%20too%5B10%20min%5D%20(128%20kbps).mp3",
+        "type": "audio/mp3"
+      }
+    }
+  ]
+}
